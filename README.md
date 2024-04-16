@@ -163,4 +163,4 @@ Furhter information and code to run the experiment from ``Novel hierarchical met
 |tetra|500|3|4|
 |torus_and_rod|500|3|2|
 
-[^1] Citation Soon
+[^1]: Citation Soon

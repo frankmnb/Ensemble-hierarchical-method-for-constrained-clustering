@@ -2,11 +2,6 @@
 
 Furhter information and code to run the experiment from ``Novel hierarchical methods for constrained clustering'' [^1]
 
-## Files
-### Clustering Methods
-### Metrics
-
-
 ## Dataset Details
 ### Real Data
 |Dataset|No. of Data Points|No. of Features|No. of Clusters|

@@ -1,4 +1,4 @@
-# Hierarchical Constrained Clustering ![Static Badge](https://img.shields.io/badge/MATLAB-100%25-orange)
+# Hierarchical Constrained Clustering
 
 Furhter information and code to run the experiment from ``A Constrained Cluster Ensemble Using Hierarchical Clustering Methods'' [^1]
 

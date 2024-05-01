@@ -1,8 +1,23 @@
-# Hierarchical Constrained Clustering
+# Hierarchical Constrained Clustering ![Static Badge](https://img.shields.io/badge/MATLAB-100%25-orange)
 
-Furhter information and code to run the experiment from ``Novel hierarchical methods for constrained clustering'' [^1]
+Furhter information and code to run the experiment from ``A Constrained Cluster Ensemble Using Hierarchical Clustering Methods'' [^1]
+
+## Installation and Usage
+Run **RunExperiment.m** in the `Code` directory for the main experiment (or **RunEnsemble.m** for the ensemble study).
+
+> [!IMPORTANT]
+> The Statistics and Machine Learning Toolbox is required to run this code.
 
 ## Dataset Details
+The **Data** files are structured as such: <[*features*], *class label*>, where the row number is also the object number. These can be found in the `Versions` directory.
+
+The **Constraint** files are in the format: <*object 1*, *object 2*, *constraint type*>, where *constraint type* is 1 or 0 depending on whether the *object 1* and *object 2* belong in the same cluster or must not be in the same cluster respectively. These can be found in the `Constrains` directory.
+
+> [!NOTE]
+> The file structure in the directories is explained in [^1]
+
+Detailed below are the attributes of the datasets from both the Real and Synthetic collections.
+
 ### Real Data
 |Dataset|No. of Data Points|No. of Features|No. of Clusters|
 |:---|---:|---:|---:|
